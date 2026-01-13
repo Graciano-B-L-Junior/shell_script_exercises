@@ -19,3 +19,6 @@ Monitors system processes. The user provides a process name, and the script chec
 
 ## script6.sh
 A countdown timer. Requests an integer from the user, validates the input to ensure it is numeric, and starts a countdown to zero, with 1-second intervals.
+
+## script7.sh
+Automates a directory backup. It verifies the existence of a target folder ("important folder") and creates a timestamped compressed archive (`.tar.gz`) of its contents.
