@@ -22,3 +22,6 @@ A countdown timer. Requests an integer from the user, validates the input to ens
 
 ## script7.sh
 Automates a directory backup. It verifies the existence of a target folder ("important folder") and creates a timestamped compressed archive (`.tar.gz`) of its contents.
+
+## script8.sh
+Reads a list of names from a file (`names.txt`) and creates a directory for each name. Inside each created directory, it generates an empty `info.txt` file.
