@@ -25,3 +25,6 @@ Automates a directory backup. It verifies the existence of a target folder ("imp
 
 ## script8.sh
 Reads a list of names from a file (`names.txt`) and creates a directory for each name. Inside each created directory, it generates an empty `info.txt` file.
+
+## script9.sh
+Prompts the user to create a password. It validates the input to ensure it meets specific criteria (minimum 8 characters and at least one number) and loops until a valid password is provided.
