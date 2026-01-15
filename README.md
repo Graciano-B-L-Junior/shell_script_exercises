@@ -31,3 +31,7 @@ Prompts the user to create a password. It validates the input to ensure it meets
 
 ## script10.sh
 Simple health check script. It prompts the user to enter a URL and then sends a GET request to that URL using the curl command. It checks the HTTP status code of the response and displays a message indicating whether the request was successful or not.
+
+## script11.sh
+Script 11 - Port Verification
+This script verifies the status of ports 80 and 443 on the local machine (`localhost`).
