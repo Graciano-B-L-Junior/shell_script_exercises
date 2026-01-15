@@ -35,3 +35,6 @@ Simple health check script. It prompts the user to enter a URL and then sends a 
 ## script11.sh
 Script 11 - Port Verification
 This script verifies the status of ports 80 and 443 on the local machine (`localhost`).
+
+## script12.sh
+Moves and compresses log files based on their size. It scans a directory for `.log` files, checks if they exceed 1MB, and if so, compresses them into `.tar.gz` format in a backup folder, logging the operations.
