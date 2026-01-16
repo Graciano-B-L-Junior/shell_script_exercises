@@ -38,3 +38,10 @@ This script verifies the status of ports 80 and 443 on the local machine (`local
 
 ## script12.sh
 Moves and compresses log files based on their size. It scans a directory for `.log` files, checks if they exceed 1MB, and if so, compresses them into `.tar.gz` format in a backup folder, logging the operations.
+
+### script13.sh
+
+**Description:**
+This script verifies if the required environment variables (`DB_HOST`, `DB_USER`, and `DB_PASSWORD`) are set and not empty. It serves as a configuration check to ensure the environment is correctly prepared before performing operations that depend on these variables.
+
+
