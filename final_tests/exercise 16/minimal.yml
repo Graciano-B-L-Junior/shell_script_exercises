@@ -1,0 +1,17 @@
+name: Minimal Workflow Example
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Global environment variables
+env:
+  NODE_VERSION: '18'
+  APP_NAME: 'my-application'
+  ENVIRONMENT: 'production'
