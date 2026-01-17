@@ -40,11 +40,10 @@ This script verifies the status of ports 80 and 443 on the local machine (`local
 Moves and compresses log files based on their size. It scans a directory for `.log` files, checks if they exceed 1MB, and if so, compresses them into `.tar.gz` format in a backup folder, logging the operations.
 
 ### script13.sh
-
-**Description:**
 This script verifies if the required environment variables (`DB_HOST`, `DB_USER`, and `DB_PASSWORD`) are set and not empty. It serves as a configuration check to ensure the environment is correctly prepared before performing operations that depend on these variables.
 
 ### script14.sh
-
-**Description:**
 Interactive script for monitoring system services. It prompts the user to enter a service name, checks its status, and logs whether it is running or not. If the service is inactive, it attempts to restart it automatically.
+
+### script15.sh
+An automatic backup script that enables the user to select and archive specific system directories (`/etc`, `/home`, `/opt`) into timestamped compressed files. It also includes a maintenance feature to identify and remove backup files older than 7 days upon user confirmation.

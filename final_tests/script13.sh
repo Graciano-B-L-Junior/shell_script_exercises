@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "##########################"
 echo "VERIFYING IF SOME ENVIRONMENT VARIABLES ARE SET"
 echo "##########################"

@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "##########################"
 echo "SERVICES MONITORING SCRIPT"
 echo "##########################"
