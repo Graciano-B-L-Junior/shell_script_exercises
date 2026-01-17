@@ -47,3 +47,6 @@ Interactive script for monitoring system services. It prompts the user to enter 
 
 ### script15.sh
 An automatic backup script that enables the user to select and archive specific system directories (`/etc`, `/home`, `/opt`) into timestamped compressed files. It also includes a maintenance feature to identify and remove backup files older than 7 days upon user confirmation.
+
+### script16.sh
+Validates YAML files intended for GitHub Actions. It allows the user to choose between specific YAML files and checks for the presence of essential keywords (`jobs` or `steps`) to determine if the file structure is valid for a workflow.
