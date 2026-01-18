@@ -50,3 +50,7 @@ An automatic backup script that enables the user to select and archive specific 
 
 ### script16.sh
 Validates YAML files intended for GitHub Actions. It allows the user to choose between specific YAML files and checks for the presence of essential keywords (`jobs` or `steps`) to determine if the file structure is valid for a workflow.
+
+### Script17.sh - SSH Permission Validator
+This script scans the `$HOME/.ssh` directory for SSH public key files (`*.pub`). It verifies if each file has `600` permissions (read/write for owner only). If a file is found with different permissions, the script offers an interactive option to automatically correct the permissions to `600`.
+
